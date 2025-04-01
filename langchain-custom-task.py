@@ -26,3 +26,6 @@ slow_thing = RunnableLambda(slow_thing)
 
 async for event in slow_thing.astream_events("some_input", version="v2"):
     print(event)
+
+async def status(config: RunnableConfig)
+    print(config)
